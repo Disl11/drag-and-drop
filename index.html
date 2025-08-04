@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Drag and Drop : Déplacer des boîtes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Titre de la page -->
+  <h1>Drag and Drop - Déplacer des boîtes</h1>
+
+  <!-- Conteneur principal contenant deux zones -->
+  <div class="container">
+
+    <!-- Zone 1 : contient les boîtes initiales -->
+    <div id="zone1" class="dropzone">
+      <h2>Zone 1</h2>
+      <!-- Les boîtes déplaçables, chacune avec un id unique et draggable -->
+      <div id="box1" class="box" draggable="true">Boîte 1</div>
+      <div id="box2" class="box" draggable="true">Boîte 2</div>
+      <div id="box3" class="box" draggable="true">Boîte 3</div>
+    </div>
+
+    <!-- Zone 2 : zone vide où on peut déposer les boîtes -->
+    <div id="zone2" class="dropzone">
+      <h2>Zone 2</h2>
+      <!-- Les boîtes peuvent être déposées ici -->
+    </div>
+    
+  </div>
+
+  <!-- Inclusion du script JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
